@@ -1,5 +1,8 @@
 # Руководство по реализации платформы менторства
 
+> **📊 Статус проекта:** Landing Page завершен (29.04.2026) — см. [PROGRESS.md](./PROGRESS.md)
+> **🎯 Следующий этап:** Week 2 — Authentication & User Management
+
 ## Оглавление
 1. [Подготовительный этап](#подготовительный-этап)
 2. [Фаза 1: MVP (Месяцы 1-3)](#фаза-1-mvp-месяцы-1-3)
@@ -270,13 +273,13 @@ export const authOptions: NextAuthOptions = {
 ```
 
 **Чеклист Неделя 1:**
-- [ ] Next.js проект инициализирован
-- [ ] Структура папок создана
+- [x] Next.js проект инициализирован ✅ (29.04.2026)
+- [x] Структура папок создана ✅ (29.04.2026)
 - [ ] Prisma настроена, схема создана
 - [ ] Database migrated (первая миграция)
 - [ ] NextAuth настроена
 - [ ] Environment variables настроены
-- [ ] Git repository создан и first commit
+- [x] Git repository создан и first commit ✅ (29.04.2026 - auto-initialized by create-next-app)
 
 ---
 
