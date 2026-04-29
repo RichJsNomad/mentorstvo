@@ -137,6 +137,11 @@ img { max-width: 100%; display: block; }
   color: white;
   box-shadow: 0 6px 24px var(--accent-glow);
 }
+.brand-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
 .nav-links {
   display: flex;
   gap: 36px;

@@ -17,8 +17,11 @@ export default function Nav() {
       <div className="container">
         <div className="nav-inner">
           <a href="/" className="brand">
-            <div className="brand-mark">D</div>
-            <span>DevMentor</span>
+            <img
+              src="/logo/devmentor-lockup-dark.svg"
+              alt="DevMentor"
+              className="brand-logo"
+            />
           </a>
 
           <div className="nav-links">

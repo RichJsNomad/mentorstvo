@@ -5,8 +5,11 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-about">
             <div className="brand">
-              <div className="brand-mark">D</div>
-              <span>DevMentor</span>
+              <img
+                src="/logo/devmentor-lockup-dark.svg"
+                alt="DevMentor"
+                className="brand-logo"
+              />
             </div>
             <p>
               Менторство по программированию для тех, кто всерьёз хочет сменить карьеру. Frontend,
