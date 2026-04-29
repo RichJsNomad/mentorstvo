@@ -1,6 +1,6 @@
 # DevMentor — Прогресс разработки
 
-**Последнее обновление:** 29 апреля 2026
+**Последнее обновление:** 29 апреля 2026 (добавлена информация о MCP серверах)
 **Статус:** 🟢 Лендинг готов, переход к MVP функциональности
 
 ---
@@ -151,6 +151,48 @@ mentorstvo/
 - **Локальная разработка:** PostgreSQL будет установлена позже
 - **Шрифты:** Google Fonts через next/font для оптимизации
 - **Анимации:** RAF-based для плавности (AnimatedIDE)
+
+### Доступные инструменты разработки (MCP серверы)
+
+В процессе разработки проекта доступны **3 MCP сервера** (все подключены и протестированы):
+
+#### 1. **Playwright** — Браузерная автоматизация
+```bash
+npx -y @playwright/mcp@latest
+Status: ✓ Connected
+```
+**Использование в проекте:**
+- E2E тестирование лендинга и дашборда
+- Автоматическая проверка responsive design
+- Тестирование authentication flow (sign in/sign up)
+- Генерация скриншотов для документации
+- Проверка accessibility (a11y)
+
+#### 2. **Context7** — Актуальная документация библиотек
+```bash
+npx -y @upstash/context7-mcp
+Status: ✓ Connected
+```
+**Использование в проекте:**
+- Актуальная документация Next.js 15 (App Router, Server Actions, Middleware)
+- Prisma ORM (схемы, миграции, relations, queries)
+- NextAuth.js (OAuth providers, callbacks, sessions, JWT)
+- React Hook Form, Zod валидация
+- Любые другие библиотеки в процессе разработки
+
+#### 3. **Sequential Thinking** — Сложный анализ и планирование
+```bash
+npx -y @modelcontextprotocol/server-sequential-thinking
+Status: ✓ Connected
+```
+**Использование в проекте:**
+- Планирование database schema (relations, indexes, constraints)
+- Проектирование API architecture (REST endpoints, тайпинг)
+- Debugging сложных проблем (race conditions, auth issues)
+- Оптимизация производительности (queries, caching, bundle size)
+- Принятие архитектурных решений (monorepo vs separate services)
+
+> **Примечание:** Все 3 сервера будут активно использоваться на каждом этапе разработки для повышения качества кода, ускорения разработки и минимизации ошибок.
 
 ### Известные ограничения
 - PostgreSQL не установлен (будет нужен для Week 2+)
